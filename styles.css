@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0
+}
+
+header {
+    display: flex;
+    height: 60px;
+    background-color: olivedrab;
+    justify-content: space-between;
+    padding: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    align-items: center;
+    
+}
+
+.logo img {
+    max-height: 90px;
+    
+}
+
+nav ul{
+    font-weight: 1000;
+    padding-right: 20px;
+    ;
+}
+
+ul{
+    display: inline-flex;
+    flex-direction: row;
+    
+}
+
+li{
+    display: inline;
+    align-self: center;
+    padding: 10px;
+}
+
+body {
+    background-position: center;
+    background-image: url(background.png);
+    background-repeat: repeat;
+    background-position-y: bottom;
+}
+
+a { 
+    text-align: center;
+    text-decoration: solid;
+    color:antiquewhite
+
+}
