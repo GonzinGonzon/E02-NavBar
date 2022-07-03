@@ -19,7 +19,7 @@ header {
 
 .nombre{
     border-radius: 20px;
-    background-color: #5CAB7D;
+    background-color: #52414C;
     padding: 4px;
     padding-left: 20px;
     padding-right: 20px;
@@ -42,7 +42,7 @@ nav ul{
 }
 
 li a:hover, a:active{
-    color: #D7C0D0;
+    color: #52414C;
     text-decoration-line: underline;
     cursor: pointer;
     border-radius: 10px;
@@ -63,24 +63,24 @@ body {
 
 ul{
     text-decoration: solid;
-    color:#D33F49
+    color:#E3655B;
 }
 
 a { 
     text-align: center;
     text-decoration: solid;
-    color:#D33F49
+    color:#E3655B;
 }
 /* secciones*/
 main{
     display: flex;
-    align-items: center;
+    align-items:stretch;
     margin: 0 10%;
     margin-bottom: 20px;
     height: auto;
-    background-color:lightgray;
+    background-color:#5B8C5A;
     border-radius: 5px;
-    border: solid #7CAE7A 2px   ;
+    border: solid #52414C 2px   ;
     padding:10px;
     justify-content: space-evenly;
     
@@ -124,14 +124,15 @@ section{
 .payment-others{
     display: flex;
     flex-direction: row;
-    justify-content:center;
-    align-items: stretch;
-    align-content: stretch;
+    justify-content:baseline;
+    align-items:center;
+    align-content:space-around;
+    flex-grow: 2;
 }
 
 .seccion-img-pagos{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     flex-direction: column;
 }
 
@@ -140,8 +141,14 @@ section{
     display: flex;
     justify-content: flex-start;
     flex-direction: column;
+    align-content: space-around;
 }
 
+.mapa{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
 .pie{
     border: 1px;
     height: fit-content;
@@ -149,7 +156,7 @@ section{
 
 .footer-links{
     height: 60px;
-    background-color: #285238;
+    background-color: #52414C;
     justify-content:baseline;
     padding: 15px;
     align-items:stretch;
