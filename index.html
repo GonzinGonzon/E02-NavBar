@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,6 +9,7 @@
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" rel="stylesheet">
     <title>Mercado Lorenzo</title>
 </head>
+
 <body>
     <header>
         <div class="logo">
@@ -16,24 +18,29 @@
         <h1 class="nombre"><a href="./index.html">Mercado Lorenzo</a></h1>
         <nav>
             <ul class="nav-item">
-                <li class="nav-element"><a href="./productos.html">Productos</a></li>
+                <li class="nav-element"><a href="#productos">Productos</a></li>
                 <li class="nav-element"><a href="./ayuda.html">Ayuda</a></li>
-                <li class="nav-element"><a href="./quienes-somos.html">Quienes somos</a></li>
-                <li class="nav-element"><a href="./contacto.html">Contacto</a></li>
-            </ul>           
+                <li class="nav-element"><a href="#quienes-somos">Quienes somos</a></li>
+                <li class="nav-element"><a href="#contacto  ">Contacto</a></li>
+            </ul>
         </nav>
     </header>
     <section>
         <main id="quienes-somos" class="quienes-somos">
             <div class="left-presentation">
-            <img src="./img/market.jpg" class="img-main" title="Nuestro local">
+                <img src="./img/market.jpg" class="img-main" title="Nuestro local">
             </div>
             <div class="right-presentation">
-            <p class="texto-secciones" id="history">Desde 1985 que abrimos nuestras puertas, nos encontramos en la ciudad llevando a la mesa de nuestros clientes frutas, verduras, carnes y demás alimentos certificados.</p>
-            <p class="texto-secciones" id="caracteristics"><b>Somos la tienda de productos Halal más completa y con mejores precios de la ciudad.</b></p>
+                <p class="texto-secciones" id="history">Desde 1985 que abrimos nuestras puertas, nos encontramos en la
+                    ciudad llevando a la mesa de nuestros clientes frutas, verduras, carnes y demás alimentos
+                    certificados.</p>
+                <p class="texto-secciones" id="characteristics"><b>Somos la tienda de productos Halal más completa y con
+                        mejores precios de la ciudad.</b></p>
                 <div class="accesos">
-                    button
-
+                    <a href="#productos"><button class="store-btn">Ir a la tienda <i
+                                class="fa-solid fa-store"></i></button></a>
+                    <a href="#carrito"><button class="cart-btn">Ver el carrito <i
+                                class="fa-solid fa-cart-shopping"></i></button></a>
                 </div>
             </div>
         </main>
@@ -43,27 +50,51 @@
                     <img src="./img/iconos-pagos.png" alt="" title="Métodos de pago" class="img-pagos">
                 </div>
                 <div class="texto-pagos">
-                    <p class="texto-secciones">Tenemos toda una gama de productos de <b>gran calidad certificada.</b> Visitá nuestra tienda online y armá tu pedido!</p>
-                    <p class="texto-secciones">Aceptamos todos los medios de pago, y realizamos envíos a toda la ciudad</p>
+                    <p class="texto-secciones">Tenemos toda una gama de productos de <b>gran calidad certificada.</b>
+                        Visitá nuestra tienda online y armá tu pedido!</p>
+                    <p class="texto-secciones">Aceptamos todos los medios de pago, y realizamos envíos a toda la ciudad
+                    </p>
+                    <div class="cert-discount">
+                        <a href="./certificaciones"><button class="cert-btn">Ver nuestras certificaciones <i
+                                    class="fa-solid fa-certificate"></i></button></a>
+                        <a href="#discounts"><button class="disc-btn">¡Aprovechá estos descuentos <i
+                                    class="fa-solid fa-percent"></i> !</button></a>
+                    </div>
+
                 </div>
             </main>
             <main id="contacto" class="contacto">
                 <div class="mapa">
-                    <iframe width="300" height="220" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.openstreetmap.org/export/embed.html?bbox=1.917165219783783%2C47.926981275622154%2C1.9196462631225586%2C47.92807581178922&amp;layer=mapnik&amp;marker=47.92752764796709%2C1.918406951822135" style="border: 1px solid black"></iframe><br/>
-                    <small><a href="https://www.openstreetmap.org/?mlat=47.92753&amp;mlon=1.91841#map=19/47.92753/1.91841">Ver mapa más grande</a></small>
+                    <iframe frameborder="0" scrolling="no" marginheight="0" marginwidth="0"
+                        src="https://www.openstreetmap.org/export/embed.html?bbox=1.917165219783783%2C47.926981275622154%2C1.9196462631225586%2C47.92807581178922&amp;layer=mapnik&amp;marker=47.92752764796709%2C1.918406951822135"
+                        style="border: 1px solid black"></iframe><br />
+                    <small class="mapamini"><a
+                            href="https://www.openstreetmap.org/?mlat=47.92753&amp;mlon=1.91841#map=19/47.92753/1.91841">Ver
+                            mapa más grande</a></small>
                 </div>
-                <p class="texto-secciones"><b>Seguinos en nuestras redes sociales, o visitanos por nuestro local!</b></p>
+                <div class="contacto-texto-iconos">
+                <p class="texto-secciones"><b>Seguinos en nuestras redes sociales, o visitanos por nuestro local!</b>
+                </p>
+                    <div class="btn-section">
+                        <a href="tel:+5492657421548"><i class="fa-solid fa-phone-square contact-btn"></i></a>
+                        <a href="https://api.whatsapp.com/send?phone=0123456789"><i class="fa-brands fa-whatsapp-square contact-btn"></i></a>
+                        <a href="https://www.facebook.com/LorenzoHalal"><i class="fa-brands fa-facebook-square contact-btn"></i></a>
+                        <a href="https://www.instagram.com/HalalMarketLorenzo"><i class="fa-brands fa-instagram-square contact-btn"></i></a>
 
+                    </div>
+                </div> 
             </main>
         </div>
     </section>
     <footer class="pie">
         <ul class="footer-links">
-            <li class="finger"><a href="./productos.html"><b>Productos</b></a></li>
+            <li class="finger"><a href="#productos"><b>Productos</b></a></li>
             <li class="finger"><a href="./ayuda.html"><b>Ayuda</b></a></li>
-            <li class="finger"><a href="./quienes-somos.html"><b>Quienes somos</b></a></li>
-            <li class="finger"><a href="./contacto.html"><b>Contacto</b></a></li>
+            <li class="finger"><a href="#quienes-somos"><b>Quienes somos</b></a></li>
+            <li class="finger"><a href="#contacto"><b>Contacto</b></a></li>
         </ul>
+        <p class="author-link">© <a href="www.github.com/GonzinGonzon">Gonzo @NUCBA</a></p>
     </footer>
 </body>
+
 </html>
