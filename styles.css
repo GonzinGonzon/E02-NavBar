@@ -276,7 +276,7 @@ section{
  padding-top: 1.5%;
  padding-right: 1.5%;
  font-style: italic;
- font-size: small;
+ font-size: .small;
 }
 
 .author-link a:hover{
